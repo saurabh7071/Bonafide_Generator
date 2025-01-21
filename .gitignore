@@ -1,0 +1,36 @@
+# Node.js dependencies
+**/node_modules/
+
+# Build outputs
+**/build/
+**/dist/
+
+# Logs
+**/logs/
+*.log
+
+# Environment variables
+**/.env
+
+# Temporary or system files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Cache files
+**/.cache/
+
+# Public folder temporary storage (optional)
+**/public/temp/*
+
+# Ignore uploads except placeholders
+**/public/uploads/*
+!**/public/uploads/.gitkeep
+
+# Ignore temp folder except placeholders
+**/public/temp/*
+!**/public/temp/.gitkeep
