@@ -18,7 +18,10 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 // import routes
+import departmentNames from "./routes/departmentNames.route.js"
 
 // route declaration 
+app.use("/api/v1/department-names", departmentNames);
 
 export default app;
+
