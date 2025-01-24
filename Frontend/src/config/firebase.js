@@ -23,8 +23,5 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-// Add some logging to debug initialization
-console.log('Firebase initialized with project:', import.meta.env.VITE_FIREBASE_PROJECT_ID);
-
 export { auth, db };
 export default app;
